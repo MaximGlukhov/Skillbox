@@ -1,0 +1,76 @@
+.section-teachers {
+  background: #212133;
+  padding-top: 72px;
+  padding-bottom: 69px;
+}
+
+
+.section-teachers__heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+
+.section-teachers__item{
+  max-width: 255px;
+}
+
+
+.teacher {
+  border-radius: 29px 29px 0 0;
+  -webkit-border-radius: 29px 29px 0 0;
+  -moz-border-radius: 29px 29px 0 0;
+  -ms-border-radius: 29px 29px 0 0;
+  -o-border-radius: 29px 29px 0 0;
+  overflow: hidden;
+}
+
+
+.teacher__photo {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+
+.teacher__subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+
+.teacher__desc {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #85859B;
+}
+
+
+@media (max-width: 990px) {
+  .section-teachers__item {
+    max-width: 330px;
+  }
+
+
+  .teacher {
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width: 690px) {
+  .section-teachers__item {
+    max-width: 240px;
+  }
+}
+
+
+@media (max-width: 510px) {
+  .section-teachers__item {
+    max-width: 100%;
+  }
+}

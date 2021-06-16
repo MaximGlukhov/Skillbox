@@ -1,0 +1,124 @@
+.section-advantages {
+  padding-top: 80px;
+  padding-bottom: 73px;
+}
+
+
+.section-advantages__top__wrap{
+  background-image: url('../img/advantages.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+.section-advantages__heading {
+  max-width: 380px;
+  margin-left: 190px;
+  margin-bottom: 19px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #2E2B44;
+}
+
+
+.section-advantages__desc {
+  max-width: 585px;
+  margin-left: 190px;
+  margin-bottom: 19px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #666666;
+}
+
+
+.section-advantages__item {
+  max-width: 350px;
+  padding: 16px 0 16px 110px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #666666;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+
+.section-advantages__item_eye {
+  background-image: url('../img/advantages-eye-circle.svg');
+}
+
+
+.section-advantages__item_fingers {
+  background-image: url('../img/advantages-fingers.svg');
+}
+
+
+.section-advantages__item_gramophon {
+  background-image: url('../img/advantages-gramophone.svg');
+}
+
+
+@media (max-width: 1110px) {
+  .section-advantages__desc {
+    max-width: 450px;
+  }
+
+
+  .section-advantages__item {
+    max-width: 210px;
+    background-position-y: top;
+    padding: 95px 0 0 0;
+  }
+}
+
+
+@media (max-width: 690px) {
+  .section-advantages__top__wrap {
+    background-position-y: top;
+  }
+
+
+  .section-advantages__heading {
+    max-width: 330px;
+  }
+
+
+  .section-advantages__desc {
+    max-width: 330px;
+  }
+
+
+  .section-advantages__item {
+    max-width: 150px;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .section-advantages__top__wrap {
+    background-image: none;
+  }
+
+
+  .section-advantages__heading {
+    margin-left: 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+
+  .section-advantages__desc {
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+
+  .section-advantages__item {
+    max-width: 290px;
+    padding: 7px 0 6px 110px ;
+    background-position: left;
+  }
+}
